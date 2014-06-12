@@ -8,9 +8,9 @@ Exchange rates fetched from National Bank of Romania
     
 ##Simple to use
 
-    ```javascript
-    var bnrRates = require('bnr-rates');
-    bnrRates.getRates(function(rates){
-        console.log(JSON.stringify(rates,null,4));
-    });
-    ```
+```javascript
+var bnrRates = require('bnr-rates');
+bnrRates.getRates(function(rates){
+    console.log(JSON.stringify(rates,null,4));
+});
+```
