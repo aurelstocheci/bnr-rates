@@ -20,128 +20,128 @@ bnrRates.getRates(function(rates){
 ```javascript
 {
     "Publisher": "National Bank of Romania",
-    "PublishingDate": "2014-06-11",
+    "PublishingDate": "2014-06-13",
     "OrigCurrency": "RON",
     "Rates": {
         "AED": {
             "multiplier": 1,
-            "amount": "0.8843"
+            "amount": 0.882
         },
         "AUD": {
             "multiplier": 1,
-            "amount": "3.0517"
+            "amount": 3.0442
         },
         "BGN": {
             "multiplier": 1,
-            "amount": "2.2477"
+            "amount": 2.2477
         },
         "BRL": {
             "multiplier": 1,
-            "amount": "1.4618"
+            "amount": 1.4528
         },
         "CAD": {
             "multiplier": 1,
-            "amount": "2.9807"
+            "amount": 2.9835
         },
         "CHF": {
             "multiplier": 1,
-            "amount": "3.6080"
+            "amount": 3.6132
         },
         "CNY": {
             "multiplier": 1,
-            "amount": "0.5215"
+            "amount": 0.5217
         },
         "CZK": {
             "multiplier": 1,
-            "amount": "0.1601"
+            "amount": 0.1603
         },
         "DKK": {
             "multiplier": 1,
-            "amount": "0.5892"
+            "amount": 0.5893
         },
         "EGP": {
             "multiplier": 1,
-            "amount": "0.4543"
+            "amount": 0.4531
         },
         "EUR": {
             "multiplier": 1,
-            "amount": "4.3960"
+            "amount": 4.396
         },
         "GBP": {
             "multiplier": 1,
-            "amount": "5.4534"
+            "amount": 5.4971
         },
         "HUF": {
-            "multiplier": "100",
-            "amount": "1.4394"
+            "multiplier": 100,
+            "amount": 1.4327
         },
         "INR": {
             "multiplier": 1,
-            "amount": "0.0548"
+            "amount": 0.0543
         },
         "JPY": {
-            "multiplier": "100",
-            "amount": "3.1822"
+            "multiplier": 100,
+            "amount": 3.1778
         },
         "KRW": {
-            "multiplier": "100",
-            "amount": "0.3198"
+            "multiplier": 100,
+            "amount": 0.3182
         },
         "MDL": {
             "multiplier": 1,
-            "amount": "0.2336"
+            "amount": 0.2335
         },
         "MXN": {
             "multiplier": 1,
-            "amount": "0.2492"
+            "amount": 0.2489
         },
         "NOK": {
             "multiplier": 1,
-            "amount": "0.5432"
+            "amount": 0.5401
         },
         "NZD": {
             "multiplier": 1,
-            "amount": "2.7827"
+            "amount": 2.8047
         },
         "PLN": {
             "multiplier": 1,
-            "amount": "1.0679"
+            "amount": 1.0665
         },
         "RSD": {
             "multiplier": 1,
-            "amount": "0.0381"
+            "amount": 0.0381
         },
         "RUB": {
             "multiplier": 1,
-            "amount": "0.0945"
+            "amount": 0.0941
         },
         "SEK": {
             "multiplier": 1,
-            "amount": "0.4864"
+            "amount": 0.4868
         },
         "TRY": {
             "multiplier": 1,
-            "amount": "1.5525"
+            "amount": 1.5285
         },
         "UAH": {
             "multiplier": 1,
-            "amount": "0.2788"
+            "amount": 0.2745
         },
         "USD": {
             "multiplier": 1,
-            "amount": "3.2481"
+            "amount": 3.2395
         },
         "XAU": {
             "multiplier": 1,
-            "amount": "131.8128"
+            "amount": 132.5956
         },
         "XDR": {
             "multiplier": 1,
-            "amount": "4.9937"
+            "amount": 4.9922
         },
         "ZAR": {
             "multiplier": 1,
-            "amount": "0.3013"
+            "amount": 0.3012
         }
     }
 }
