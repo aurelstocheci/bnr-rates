@@ -27,8 +27,8 @@ module.exports.getRates = function (callback) {
         rates.Rates = {};
         for(var i=0; i<body.children[2].children.length; i++) {
             rates.Rates[body.children[2].children[i].attribs.currency] = {};
-            rates.Rates[body.children[2].children[i].attribs.currency].multiplier = body.children[2].children[i].attribs.multiplier !== undefined ? body.children[2].children[i].attribs.multiplier : 1;
-            rates.Rates[body.children[2].children[i].attribs.currency].amount = body.children[2].children[i].children[0].data;
+            rates.Rates[body.children[2].children[i].attribs.currency].multiplier = body.children[2].children[i].attribs.multiplier !== undefined ? parseFloat(body.children[2].children[i].attribs.multiplier) : 1;
+            rates.Rates[body.children[2].children[i].attribs.currency].amount = parseFloat(body.children[2].children[i].children[0].data);
         }
         next(null, rates);
     }
